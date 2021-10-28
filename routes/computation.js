@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
     if(value == 0)
     value=Math.random()
     res.write("Computes the values for Math.atan2 and math.cbrt function."+"\n")
-    res.write('Math.atan2 applied to '+value+" is "+Math.atan2(value)+"\n");
+    res.write('Math.atan2 applied to '+value+" is "+Math.atanh(value)+"\n");
     res.end('Math.cbrt applied to '+value+" is "+Math.cbrt(value));
  });
 
